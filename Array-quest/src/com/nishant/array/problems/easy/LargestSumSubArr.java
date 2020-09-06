@@ -1,4 +1,4 @@
-package com.nishant.array.problems;
+package com.nishant.array.problems.easy;
 
 // find largest contiguous sum sub array
 public class LargestSumSubArr {
@@ -11,7 +11,7 @@ public class LargestSumSubArr {
 	}
 
 	// O(n)
-	// The idea is to store only ve number
+	// The idea is to store only +ve number
 	private static int kadaneAlgo(int[] arr) {
 		int max = Integer.MIN_VALUE, sum = 0; 
 		  

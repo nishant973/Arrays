@@ -1,4 +1,4 @@
-package com.nishant.array.problems;
+package com.nishant.array.problems.easy;
 
 import java.util.Arrays;
 import java.util.BitSet;
